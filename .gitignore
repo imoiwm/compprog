@@ -1,0 +1,5 @@
+# executable files
+*.exe
+
+# .swp temp files
+*.swp
