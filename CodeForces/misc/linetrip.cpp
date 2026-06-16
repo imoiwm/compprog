@@ -15,9 +15,8 @@ int main() {
       int temp; cin>>temp;
       if (i == n - 1) {
         res = max(res, 2 * (x - temp));
-      } else {
-        res = max(res, abs(temp - prev));
       }
+      res = max(res, abs(temp - prev));
       prev = temp;
     }
     cout << res << '\n';
